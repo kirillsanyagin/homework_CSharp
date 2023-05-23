@@ -1,0 +1,15 @@
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\bin\Debug\net7.0\homework_seminar1.exe
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\bin\Debug\net7.0\homework_seminar1.deps.json
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\bin\Debug\net7.0\homework_seminar1.runtimeconfig.json
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\bin\Debug\net7.0\homework_seminar1.dll
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\bin\Debug\net7.0\homework_seminar1.pdb
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.csproj.AssemblyReference.cache
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.AssemblyInfoInputs.cache
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.AssemblyInfo.cs
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.csproj.CoreCompileInputs.cache
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.dll
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\refint\homework_seminar1.dll
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.pdb
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\homework_seminar1.genruntimeconfig.cache
+C:\Users\Кирилл Санягин\CSharp\homework_seminar1\obj\Debug\net7.0\ref\homework_seminar1.dll
