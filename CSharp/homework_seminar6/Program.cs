@@ -31,22 +31,22 @@ Console.WriteLine($"Количество положительных чисел �
 
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-Console.WriteLine("Задайте коориднаты b1");
-double b1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Задайте коориднаты b1");
+// double b1 = Convert.ToInt32(Console.ReadLine());
 
 
-Console.WriteLine("Задайте коориднаты k1");
-double k1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Задайте коориднаты k1");
+// double k1 = Convert.ToInt32(Console.ReadLine());
 
 
-Console.WriteLine("Задайте коориднаты b2");
-double b2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Задайте коориднаты b2");
+// double b2 = Convert.ToInt32(Console.ReadLine());
 
 
-Console.WriteLine("Задайте коориднаты k1");
-double k2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Задайте коориднаты k1");
+// double k2 = Convert.ToInt32(Console.ReadLine());
 
-double x = (b2 - b1) / (k1 - k2);
-double y = k1 * x + b1;
+// double x = (b2 - b1) / (k1 - k2);
+// double y = k1 * x + b1;
 
-Console.Write($"Точка пересечения двух прямых: [{x},{y}]");
+// Console.Write($"Точка пересечения двух прямых: [{x},{y}]");
