@@ -7,14 +7,14 @@
 // 7 4 2 1
 // 9 5 3 2
 // 8 4 4 2
+/*
+Console.WriteLine("Введите кол-во строк");
+int rows = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine("Введите кол-во строк");
-// int rows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите кол-во столбцов");
+int columns = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine("Введите кол-во столбцов");
-// int columns = Convert.ToInt32(Console.ReadLine());
-
-/*int [,] array = new int [3,4];
+int [,] array = new int [rows,columns];
 
 
 void Array(int[,]array)
@@ -45,7 +45,7 @@ void SelectionSort(int[,] array)
         {
             for (int j = 0; j < array.GetLength(1);j++)
                 {
-                for (int z = 0; z < array.GetLength(1) - 1; z++)
+                for (int z = 0; z < array.GetLength(1)-1; z++)
                     {
                         if(array[i, z] < array[i, z + 1]) //для изменения сортировки поменять знак < на противоположный
                             {
@@ -63,8 +63,8 @@ Array(array);
 PrintArray(array);
 SelectionSort(array);
 Console.WriteLine();
-PrintArray(array);*/
-
+PrintArray(array);
+*/
 // Решение задачи взял у однокурсников. Подскажите чем является Z в методе?
 // И если можно расскажите на примере нескольких цифр, как будет осуществляться сортировка.
 
@@ -204,13 +204,15 @@ Array3();
 
 void Array()
 {
+    int count = 10;
     for(int i = 0; i<array.GetLength(0); i++)
     {
         for (int j = 0 ; j<array.GetLength(1); j++)
         {
-            for(int k = 0 ; k<array.GetLength(1); k++)
+            for(int k = 0 ; k<array.GetLength(2); k++)
             {
-                array[i,j,k] = new Random().Next(10,100);        
+                array[i,j,k] += count;
+                count +=2;        
             }
         }
     }
@@ -222,7 +224,7 @@ void ArrayIndex()
     {
         for (int j = 0 ; j<array.GetLength(1); j++)
         {
-            for(int k = 0 ; k<array.GetLength(1); k++)
+            for(int k = 0 ; k<array.GetLength(2); k++)
             {
                 Console.Write($"{array[i,k,j]}  ({i}, {k}, {j})");
             }          
@@ -231,8 +233,8 @@ void ArrayIndex()
     }
 }
 Array();
-ArrayIndex();*/
-
+ArrayIndex();
+*/
         
     
 
@@ -243,7 +245,7 @@ ArrayIndex();*/
 // 11 16 15 06
 // 10 09 08 07
 
-int[,] matrix = new int[4, 4];
+/*int[,] matrix = new int[4, 4];
 int num = 1;
 void SpiralMatrix(int[,] array, int arg)
 {
@@ -278,4 +280,60 @@ void PrintResultArray(int[,] array)
 
 SpiralMatrix(matrix, num);
 PrintResultArray(matrix);
+*/
 
+// 2ой вариант решения
+/*int[,]array = new int [4,4];
+int count = 0;
+int i= 0; 
+int j = 0;
+
+for(j=0;j<array.GetLength(1);j++) //0ая строка
+{
+    array[i,j] =1+ count; 
+    count++;
+}
+j=3;
+for(i=1;i<array.GetLength(0);i++) //3ий столбец
+{
+    array[i,j] =1+count;
+    count++;
+}
+i=3;
+for(j=2;j>=0;j-=1) //3я строчка
+{
+    array[i,j] = 1+ count;
+    count++;
+}
+j=0;
+for(i=2;i>=1;i-=1) //0ой столбец
+{
+    array[i,j] = 1+ count;
+    count++;
+}
+i=1;
+for(j=1;j<=2;j++) //1ая строка
+{
+    array[i,j] = 1+ count;
+    count++;
+}
+i=2;
+for(j=2;j>=1;j -=1)
+{
+    array[i,j] = 1+ count;
+    count++;
+}
+
+
+
+
+
+for(i=0;i<array.GetLength(0);i++)
+{
+    for(j=0 ; j<array.GetLength(1);j++)
+    {
+        Console.Write(array[i,j]+ "  ");
+    }
+    Console.WriteLine();
+}
+Console.WriteLine(" ");*/
